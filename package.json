@@ -1,11 +1,11 @@
 {
-  "name": "mdx-starter",
+  "name": "rockclimbutah",
   "version": "0.1.0",
-  "description": "A modern MDX starter template with Next.js, Velite, and Tailwind CSS",
-  "author": "Bridger Tower",
+  "description": "Rock climbing in Utah",
+  "author": "Ben Meilstrup",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brijr/mdx.git"
+    "url": ""
   },
   "keywords": [
     "mdx",

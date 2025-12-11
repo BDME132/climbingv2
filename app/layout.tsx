@@ -12,11 +12,11 @@ import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: {
-    default: "MDX Starter Template for Building Websites",
-    template: "%s | MDX Starter",
+    default: "Rock Climb Utah",
+    template: "%s | Rock Climb Utah",
   },
   description:
-    "MDX and Next.js Starter made by Bridger Tower at 9d8 and WIP / AC",
+    "Rock climbing in Utah",
 };
 
 export default function RootLayout({

@@ -1,6 +1,6 @@
-# MDX Starter
+# Rock Climb Utah
 
-A modern, type-safe MDX content site built with Next.js 16, Velite, and Tailwind CSS. Perfect for blogs, documentation sites, and content-driven projects that need the power of React components within Markdown.
+A modern, type-safe MDX content site built with Next.js 16, Velite, and Tailwind CSS. Your guide to rock climbing in Utah.
 
 ## Overview
 
@@ -31,11 +31,8 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/brijr/mdx.git my-mdx-site
-cd my-mdx-site
-
-# Or use as a GitHub template
-# Click "Use this template" on GitHub
+git clone <your-repo-url> rockclimbutah
+cd rockclimbutah
 ```
 
 ### 2. Install Dependencies
@@ -77,7 +74,7 @@ Serves your production build locally.
 ## Project Structure
 
 ```
-mdx-starter/
+rockclimbutah/
 ├── app/                      # Next.js app directory
 │   ├── [...slug]/           # Dynamic route for all MDX pages
 │   ├── api/                 # API routes (e.g., bookmark metadata)
@@ -213,8 +210,8 @@ Update site metadata in `app/layout.tsx`:
 
 ```typescript
 export const metadata = {
-  title: "Your Site Name",
-  description: "Your site description",
+  title: "Rock Climb Utah",
+  description: "Rock climbing in Utah",
   // ... other metadata
 }
 ```
@@ -223,9 +220,9 @@ export const metadata = {
 
 ### Deploy to Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbrijr%2Fmdx)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 
-1. Click the button above or visit [vercel.com/new](https://vercel.com/new)
+1. Visit [vercel.com/new](https://vercel.com/new)
 2. Import your repository
 3. Vercel will auto-detect Next.js and configure build settings
 4. Deploy!
@@ -273,8 +270,4 @@ MIT License - see [LICENSE](LICENSE) for details
 
 ## Credits
 
-Made by [Bridger Tower](https://bridgertower.com)
-
-## Support
-
-Found an issue or have a question? Please [open an issue](https://github.com/brijr/mdx/issues) on GitHub.
+Made by Ben Meilstrup
